@@ -11,7 +11,7 @@ fetch(genresListHttp + new URLSearchParams({
 const fetchMoviesListByGenres = (id,genres) => {
   fetch(moviesDataHttp + new URLSearchParams({
     api_key : api_key,
-    with_genres: id,
+    with_genres: id, 
   }))
   .then(res => res.json())
   .then(data => {
