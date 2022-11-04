@@ -1,5 +1,5 @@
 {
-  "homepage": "https://fullstackjustin.github.io/NETFLIX-CLONE-MASTER",
+  "homepage": "https://github.com/FullStackJustin/Netflix-Clone#readme",
   "name": "netlixclone",
   "version": "1.0.0",
   "description": "netflix clone built by fullstackjustin",
@@ -18,7 +18,6 @@
   "bugs": {
     "url": "https://github.com/FullStackJustin/Netflix-Clone/issues"
   },
-  "homepage": "https://github.com/FullStackJustin/Netflix-Clone#readme",
   "dependencies": {
     "express.js": "^1.0.0",
     "gh-pages": "^4.0.0",
