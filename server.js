@@ -10,6 +10,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(intial_path, "index.html"))
 })
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log('listening on port 3000......');
 })
