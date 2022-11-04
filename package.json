@@ -1,11 +1,13 @@
 {
-  "homepage": "https://github.com/FullStackJustin/Netflix-Clone#readme",
+  "homepage": "https://fullstackjustin.github.io/NETFLIX-CLONE-MASTER",
   "name": "netlixclone",
   "version": "1.0.0",
   "description": "netflix clone built by fullstackjustin",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
   },
   "repository": {
     "type": "git",
@@ -16,12 +18,11 @@
   "bugs": {
     "url": "https://github.com/FullStackJustin/Netflix-Clone/issues"
   },
+  "homepage": "https://github.com/FullStackJustin/Netflix-Clone#readme",
   "dependencies": {
     "express.js": "^1.0.0",
+    "gh-pages": "^4.0.0",
     "nodemon": "^2.0.19",
     "react": "^18.2.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
