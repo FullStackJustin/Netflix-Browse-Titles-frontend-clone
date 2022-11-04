@@ -1,0 +1,24 @@
+{
+  "name": "netlixclone",
+  "version": "1.0.0",
+  "description": "netflix clone built by fullstackjustin",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullStackJustin/Netflix-Clone.git"
+  },
+  "author": "fullstackjustin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FullStackJustin/Netflix-Clone/issues"
+  },
+  "homepage": "https://github.com/FullStackJustin/Netflix-Clone#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.19",
+    "react": "^18.2.0"
+  }
+}
