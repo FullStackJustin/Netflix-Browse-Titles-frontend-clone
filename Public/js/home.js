@@ -110,7 +110,7 @@ const makeCards = (id, data) => {
         }
 
         movieContainer.innerHTML += `
-        <div class="movie" onclick="location.href = '/moviePage.html'">
+        <div class="movie" onclick={undefined}>
             <img src="${imgUrl}${item.backdrop_path}" alt="">
             <p class="movie-title">${item.title}</p>
         </div>
